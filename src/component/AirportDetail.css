@@ -1,0 +1,151 @@
+.AirportDetail {
+  position: absolute;
+  width: 35px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.AirportDetail:hover {
+  transform: scale(1.2);
+  z-index: 100;
+}
+.aitport-weather {
+  display: none;
+}
+.AirportDetail:hover .aitport-weather {
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+  height: 60px;
+  background: rgba(98, 151, 182, 0.6);
+  box-shadow: 0 0 3px rgba(98, 151, 182, 0.6);
+  padding: 10px 0;
+  border-radius: 10px;
+}
+.AirportDetail:hover .aitport-weather-text p {
+  font-size: 11px;
+  font-weight: bold;
+  color: #fff;
+}
+.AirportDetail:hover .airport_icon,
+.AirportDetail:hover .airport_title {
+  display: none;
+}
+.airport_icon .icon {
+  width: 25px;
+  height: 25px;
+}
+.airport_title {
+  width: 35px;
+  height: 22px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2px;
+}
+.airport_title p {
+  font-size: 9px;
+  text-align: center;
+  word-break: keep-all;
+  line-height: 10px;
+  letter-spacing: -1.5px;
+  color: #576273;
+  font-weight: bold;
+}
+
+/* 인천 */
+.AirportDetail:nth-child(1) {
+  top: 90px;
+  left: 45px;
+  color: #a9c7d8;
+}
+/* 김포 */
+.AirportDetail:nth-child(2) {
+  top: 85px;
+  left: 80px;
+  color: #a9c7d8;
+}
+/* 원주 */
+.AirportDetail:nth-child(3) {
+  top: 100px;
+  left: 150px;
+  color: #6297b6;
+}
+/* 양양 */
+.AirportDetail:nth-child(4) {
+  top: 60px;
+  right: 120px;
+  color: #a9c7d8;
+}
+/* 청주 */
+.AirportDetail:nth-child(5) {
+  top: 165px;
+  left: 110px;
+  color: #a9c7d8;
+}
+/* 새만금 */
+.AirportDetail:nth-child(6) {
+  top: 215px;
+  left: 55px;
+  color: #a9c7d8;
+}
+/* 광주 */
+.AirportDetail:nth-child(7) {
+  top: 270px;
+  left: 60px;
+  color: #6297b6;
+}
+/* 무안 */
+.AirportDetail:nth-child(8) {
+  top: 300px;
+  left: 30px;
+  color: #a9c7d8;
+}
+/* 여수 */
+.AirportDetail:nth-child(9) {
+  top: 310px;
+  left: 90px;
+  color: #6297b6;
+}
+/* 사천 */
+.AirportDetail:nth-child(10) {
+  top: 290px;
+  left: 130px;
+  color: #6297b6;
+}
+/* 대구 */
+.AirportDetail:nth-child(11) {
+  top: 230px;
+  left: 175px;
+  color: #a9c7d8;
+}
+/* 김해 */
+.AirportDetail:nth-child(12) {
+  top: 290px;
+  right: 115px;
+  color: #a9c7d8;
+}
+/* 울산 */
+.AirportDetail:nth-child(13) {
+  top: 260px;
+  right: 90px;
+  color: #6297b6;
+}
+/* 포항 */
+.AirportDetail:nth-child(14) {
+  top: 210px;
+  right: 85px;
+  color: #6297b6;
+}
+/* 제주 */
+.AirportDetail:nth-child(15) {
+  bottom: 50px;
+  right: 32px;
+  color: #a9c7d8;
+}

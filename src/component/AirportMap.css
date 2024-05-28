@@ -1,0 +1,30 @@
+.AirportMap_wrap {
+  width: 350px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.AirportMap {
+  width: 330px;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.AirportMap img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.airport_icons {
+  position: relative;
+  width: 350px;
+  height: 390px;
+}
